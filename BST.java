@@ -1,6 +1,3 @@
-package fever;
-
-
 class Tree{
 	char data;
 	Tree left;
@@ -13,7 +10,7 @@ class Tree{
 		data=c;
 	}
 }
-public class Bst{
+public class BST{
 	
 	public static void preorder(Tree t) {
 		if(t==null) {
